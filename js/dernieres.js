@@ -5,8 +5,8 @@ fetch("data/recettes.json")
         // Trier par date (plus récente en premier)
         recettes.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-        // Limiter à 6 dernières recettes
-        const dernieres = recettes.slice(0, 6);
+        // Limiter à 3 dernières recettes
+        const dernieres = recettes.slice(0, 3);
 
         const container = document.getElementById("liste-dernieres");
 
