@@ -1,0 +1,82 @@
+/* CONTENEUR GLOBAL */
+.categories-container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* TITRE */
+.titre-page {
+    text-align: center;
+    font-size: 2.6rem;
+    color: #8b5e34;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* INTRO */
+.intro-categories {
+    text-align: center;
+    color: #5a4633;
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+/* GRILLE ÉLÉGANTE */
+.liste-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 30px;
+    padding-bottom: 60px;
+}
+
+/* CARTES CATÉGORIES */
+.categorie-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #f7f3ec;
+    border: 2px solid #d9c7a3;
+    border-radius: 14px;
+
+    padding: 25px 20px;
+    text-align: center;
+
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #5a4633;
+    text-decoration: none;
+
+    transition: all 0.25s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.06);
+}
+
+/* ICÔNE + TEXTE */
+.categorie-card::first-letter {
+    font-size: 1.6rem;
+}
+
+/* HOVER */
+.categorie-card:hover {
+    background: #f0e7db;
+    border-color: #8b5e34;
+    color: #8b5e34;
+    transform: translateY(-6px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+/* VERSION MOBILE */
+@media (max-width: 600px) {
+    .liste-categories {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 20px;
+    }
+
+    .categorie-card {
+        font-size: 1.2rem;
+        padding: 18px;
+    }
+}

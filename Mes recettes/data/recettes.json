@@ -1,0 +1,23 @@
+[
+  {
+    "titre": "Cookies façon Laura Todd",
+    "url": "cookies-laura-todd.html",
+    "image": "images/cookies1.jpg",
+    "date": "2026-06-29",
+    "source": "C’est ma fournée",
+    "source_url": "https://www.cestmafournee.com"
+},
+
+    {
+        "titre": "Focaccia de Peppe",
+        "url": "focaccia-peppe.html",
+        "image": "images/focaccia1.jpg",
+        "date": "2026-06-27"
+    },
+    {
+        "titre": "Meringue Suisse",
+        "url": "meringue-suisse.html",
+        "image": "images/meringuesuisse1.jpg",
+        "date": "2026-06-29"
+    }
+]
