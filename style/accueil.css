@@ -43,3 +43,26 @@
         transform: translateY(0);
     }
 }
+/* Conteneur des vignettes */
+#accueil-dernieres {
+    display: grid;
+    gap: 20px;
+}
+
+/* Grand écran → 3 colonnes */
+@media (min-width: 1024px) {
+    #accueil-dernieres {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Petit et moyen écran → 1 colonne */
+@media (max-width: 1023px) {
+    #accueil-dernieres {
+        grid-template-columns: 1fr;
+    }
+}
+
+#accueil-dernieres {
+    justify-items: center;
+}
