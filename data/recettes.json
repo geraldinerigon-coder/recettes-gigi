@@ -19,5 +19,37 @@
         "url": "meringue-suisse.html",
         "image": "images/meringuesuisse1.jpg",
         "date": "2026-06-29"
+    },
+{
+        "titre": "Merveilleux",
+        "url": "merveilleux.html",
+        "image": "images/merveilleux1.jpg",
+        "date": "2026-06-29",
+        "source_url": "https://www.cestmafournee.com"
     }
+
+    ,
+{
+        "titre": "Crème renversée au caramel",
+        "url": "creme-renversee-caramel.html",
+        "image": "images/cremerenversee1.jpg",
+        "date": "2026-06-29",
+        "source": "Faites votre Pâtisserie comme LENÔTRE éd Flammarion 1981"
+
+        
+    }
+
+    ,
+{
+        "titre": "Biscuits à la cuiller",
+        "url": "biscuits-a-la-cuiller.html",
+        "image": "images/biscuitscuiller1.jpg",
+        "date": "2026-07-21",
+        "source": "Faites votre Pâtisserie comme LENÔTRE éd Flammarion 1975"
+
+        
+    }
+
 ]
+
+
