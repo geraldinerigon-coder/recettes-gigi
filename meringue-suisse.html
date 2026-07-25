@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style/recette.css">
 </head>
 
+<script src="js/source.js"></script>
+
 <body>
 
     <!-- HEADER -->
@@ -31,63 +33,85 @@
     <nav class="menu-gigi">
         <ul>
             <li><a href="index.html">Accueil</a></li>
-            <li><a href="recettes.html">Toutes les recettes</a></li>
-            <li><a href="categories.html">Catégories</a></li>
             <li><a href="dernieres.html">Dernières recettes</a></li>
+            <li><a href="recettes.html">Toutes les recettes</a></li>
+            <li><a href="categories.html">Recettes par Catégories</a></li>
             <li><a href="apropos.html">À propos</a></li>
         </ul>
     </nav>
 
-    <!-- CONTENU RECETTE -->
+    <!-- CONTENU DE LA RECETTE -->
     <main class="recette-container">
 
-        <article class="recette">
+        <h2 class="titre-recette">Meringue Suisse</h2>
 
-            <h2 class="recette-titre">Meringue Suisse</h2>
-            <p class="recette-sous-titre">Une meringue stable, brillante et inratable.</p>
+        <!-- Infos clés -->
+        <div class="infos-cle">
+            <span>⏱️ 20 min + 1 h de cuisson</span>
+            <span>🔥 Très facile</span>
+            <span>👥 Pour 1 fournée</span>
+        </div>
 
-            <section class="recette-meta">
-                <p><strong>Type :</strong> Base de pâtisserie</p>
-                <p><strong>Cuisson :</strong> 1 h à 100°C</p>
-            </section>
+        <!-- Galerie de photos -->
+        <div class="galerie-recette">
+            <img src="images/meringue-suisse1.jpg" alt="Meringue suisse">
+            <img src="images/meringue-suisse2.jpg" alt="Meringue suisse">
+            <img src="images/meringue-suisse3.jpg" alt="Meringue suisse">
+        </div>
 
-            <section class="recette-ingredients">
+        <!-- Mise en page 2 colonnes -->
+        <div class="recette-layout">
+
+            <!-- Colonne ingrédients -->
+            <aside class="ingredients-col">
                 <h3>Ingrédients</h3>
+
                 <ul>
                     <li>125 g de blancs d’œufs (environ 4)</li>
                     <li>250 g de sucre en poudre</li>
-                    <li>Le sucre est toujours le double du poids des blancs d’œufs.</li>
+                    <li>Le sucre = toujours le double du poids des blancs</li>
                 </ul>
-            </section>
+            </aside>
 
-            <section class="recette-instructions">
-                <h3>Instructions</h3>
+            <!-- Colonne étapes -->
+            <section class="etapes-col">
+                <h3>Étapes</h3>
                 <ol>
-                    <li>
-                        Préparer un bain-marie avec une casserole d’eau frémissante.
+                    <li><strong>Préparez un bain-marie</strong><br>
+                        Placez un saladier sur une casserole d’eau frémissante (sans contact direct).
                     </li>
-                    <li>
-                        Dans un saladier résistant à la chaleur, verser les blancs d’œufs et le sucre.
+
+                    <li><strong>Mélangez les blancs et le sucre</strong><br>
+                        Versez les blancs d’œufs et le sucre dans le saladier.
                     </li>
-                    <li>
-                        Battre au fouet à main au-dessus du bain-marie jusqu’à ce que le mélange
-                        atteigne environ 40–45°C (maximum 50°C). La meringue doit commencer à épaissir.
+
+                    <li><strong>Chauffez la préparation</strong><br>
+                        Fouettez au-dessus du bain-marie jusqu’à atteindre 40–45°C  
+                        (maximum 50°C).  
+                        La meringue doit commencer à épaissir.
                     </li>
-                    <li>
-                        Retirer du bain-marie puis battre au fouet électrique à vitesse maximale
-                        jusqu’à complet refroidissement. La meringue doit être ferme, brillante et former un bec d’oiseau.
+
+                    <li><strong>Montez la meringue</strong><br>
+                        Retirez du bain-marie et fouettez au batteur à vitesse maximale  
+                        jusqu’à complet refroidissement.  
+                        La meringue doit être ferme, brillante et former un bec d’oiseau.
                     </li>
-                    <li>
-                        Dresser les meringues à la poche sur une plaque recouverte de papier cuisson.
+
+                    <li><strong>Dressez</strong><br>
+                        Pochez les meringues sur une plaque recouverte de papier cuisson.
                     </li>
-                    <li>
-                        Cuire au four à 100°C maximum pendant 1 heure, puis éteindre le four
-                        et laisser les meringues refroidir à l’intérieur.
+
+                    <li><strong>Cuisson</strong><br>
+                        Cuire à 100°C pendant 1 heure.  
+                        Éteignez le four et laissez sécher les meringues à l’intérieur.
                     </li>
                 </ol>
             </section>
 
-        </article>
+        </div>
+
+        <!-- BLOC SOURCE -->
+        <div id="bloc-source" class="bloc-source"></div>
 
     </main>
 
