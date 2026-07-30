@@ -1,4 +1,4 @@
-// Récupère la catégorie dans l'URL
+ // Récupère la catégorie dans l'URL
 const params = new URLSearchParams(window.location.search);
 const categorieURL = params.get("categorie");
 
