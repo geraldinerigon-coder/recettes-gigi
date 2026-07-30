@@ -8,11 +8,11 @@
     "source_url": "https://www.cestmafournee.com"
 },
 
-    {
-        "titre": "Focaccia de Peppe",
-        "url": "focaccia-peppe.html",
-        "image": "images/focaccia1.jpg",
-        "date": "2026-06-27"
+ {
+      "titre": "Focaccia de Peppe",
+      "url": "focaccia-peppe.html",
+      "image": "images/focaccia1.jpg",
+      "date": "2026-06-27"
     },
     {
         "titre": "Meringue Suisse",
@@ -31,8 +31,7 @@
 {
         "titre": "Riz au lait de Stéphane Jego",
         "url": "riz-au-lait-stephane-jego.html",
-
-        
+              
         "image": "images/rizaulait1.jpg",
         "date": "2026-06-29",
         "source": "Stéphane Jego"
@@ -65,6 +64,7 @@
         "titre": "Pâte à tartiner noisette de Christophe Michalak",
   "url": "pate-a-tartiner-michalak.html",
   "image": "images/pateatartiner1.jpg",
+  "date": "2026-07-21",
   "source": "Recette trouvée sur le site « C’est ma fournée »",
   "source_url": "https://www.cestmafournee.com"
 },
@@ -72,7 +72,8 @@
    "titre": "Noisettes caramélisées", 
   "url": "noisettes-caramelisees.html",
    "image": "images/noisettes1.jpg",
-  "source": "Les desserts qui me font craquer de Christophe Michalak", 2010,
+   "date": "2026-07-21",
+  "source": "Les desserts qui me font craquer de Christophe Michalak, 2010"
   
 }
 
