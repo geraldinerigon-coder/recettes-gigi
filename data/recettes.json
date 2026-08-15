@@ -83,7 +83,16 @@
   "image": "gateau-lenotre1.jpg",
   "date": "2026-08-02",
   "source": "Faites votre pâtisserie comme Lenôtre – Flammarion"
+},
+
+{
+  "titre": "Macarons à la vanille",
+  "url": "macarons-vanille.html",
+  "image": "macarons1.jpg",
+  "date": "2026-08-15",
+  "source": "https://lacuisinedebernard.com/les-macarons-base-sans-garniture/"
 }
+
 
 
 ]
