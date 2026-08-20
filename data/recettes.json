@@ -88,7 +88,17 @@
   "image": "macarons1.jpg",
   "date": "2026-08-15",
   "source": "https://lacuisinedebernard.com/les-macarons-base-sans-garniture/"
+},
+
+{
+  "titre": "Île Flottante de Lenôtre",
+  "url": "ile-flottante.html",
+  "image": "ile-flottante1.jpg",
+  "categorie": "Desserts",
+  "date": "2026-08-20",
+  "source": "Lenôtre"
 }
+
 
 
 
