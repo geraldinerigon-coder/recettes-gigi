@@ -99,7 +99,7 @@
   "source": "Lenôtre"
 },
 
-{
+
 {
   "titre": "Houmous ultra crémeux",
   "url": "houmous.html",
@@ -107,17 +107,6 @@
   "categorie": "Apéro",
   "date": "2026-09-03",
   "source": "C'est ma fournée"
-},
-
-{
-  "titre": "Houmous ultra crémeux",
-  "url": "houmous.html",
-  "image": "images/houmous1.jpg",
-  "categorie": "PoisChiche",
-  "date": "2026-09-03",
-  "source": "C'est ma fournée"
-}
-
 }
 
 
