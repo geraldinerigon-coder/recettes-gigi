@@ -100,12 +100,24 @@
 },
 
 {
+{
   "titre": "Houmous ultra crémeux",
   "url": "houmous.html",
   "image": "images/houmous1.jpg",
-  "categorie": "Apéritifs",
+  "categorie": "Apéro",
   "date": "2026-09-03",
-  "source": "Gigi"
+  "source": "C'est ma fournée"
+},
+
+{
+  "titre": "Houmous ultra crémeux",
+  "url": "houmous.html",
+  "image": "images/houmous1.jpg",
+  "categorie": "Pois Chiches",
+  "date": "2026-09-03",
+  "source": "C'est ma fournée"
+}
+
 }
 
 
