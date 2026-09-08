@@ -89,11 +89,12 @@
 }
 
 .stars span {
-      font-size: 2rem;
+    font-size: 1.2rem;   /* ⭐ même taille que les emojis ⏱️🔥👥 */
     cursor: pointer;
     color: #d4a373;
     transition: transform 0.2s;
 }
+
 
 
 
