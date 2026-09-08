@@ -89,11 +89,13 @@
 }
 
 .stars span {
-    font-size: 2rem;
+      font-size: 2rem;
     cursor: pointer;
-    color: #d4a373; /* beige doré */
+    color: #d4a373;
     transition: transform 0.2s;
 }
+
+
 
 .stars span:hover {
     transform: scale(1.2);
