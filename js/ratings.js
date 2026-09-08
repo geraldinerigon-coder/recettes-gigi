@@ -1,3 +1,5 @@
+
+
 async function loadRating(recipe) {
     const response = await fetch("https://raw.githubusercontent.com/geraldinerigon-coder/recettes-gigi/main/ratings.json");
     const data = await response.json();
