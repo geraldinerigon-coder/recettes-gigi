@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    // Récupère le nom de la page (ex: suzy.html → suzy)
     const page = window.location.pathname.split("/").pop().replace(".html", "");
 
-    // Liste des recettes
     const recettes = [
         "suzy",
         "houmous",
@@ -15,21 +13,18 @@ document.addEventListener("DOMContentLoaded", function () {
         "pate-a-tartiner-michalak",
         "noisettes-caramelisees",
         "gateau-chocolat-lenotre",
-        "focaccia-peppe",
+        "focaccia-sans-petrissage",
         "meringue-suisse"
     ];
 
-    // Si la page est une recette → activer étoiles + CommentBox
     if (recettes.includes(page)) {
 
         /* ⭐⭐⭐⭐⭐ SYSTÈME DE NOTATION */
         const stars = document.querySelectorAll(".stars span");
         const ratingCount = document.querySelector(".rating-count");
 
-        // Identifiant unique pour chaque recette
         const storageKey = "rating-" + page;
 
-        // Charger la note existante
         const savedRating = localStorage.getItem(storageKey);
         const savedVotes = localStorage.getItem(storageKey + "-votes");
 
@@ -41,15 +36,12 @@ document.addEventListener("DOMContentLoaded", function () {
             ratingCount.textContent = savedVotes + " votes";
         }
 
-        // Gestion du clic sur les étoiles
         stars.forEach(star => {
             star.addEventListener("click", function () {
                 const value = this.getAttribute("data-value");
 
-                // Sauvegarde locale
                 localStorage.setItem(storageKey, value);
 
-                // Compteur de votes
                 let votes = localStorage.getItem(storageKey + "-votes");
                 votes = votes ? parseInt(votes) + 1 : 1;
                 localStorage.setItem(storageKey + "-votes", votes);
