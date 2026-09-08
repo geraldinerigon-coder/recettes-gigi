@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Pages principales -->
   <url><loc>https://recettes-gigi.vercel.app/</loc></url>
   <url><loc>https://recettes-gigi.vercel.app/recettes.html</loc></url>
   <url><loc>https://recettes-gigi.vercel.app/categories.html</loc></url>
   <url><loc>https://recettes-gigi.vercel.app/mentions-legales.html</loc></url>
+
+  <!-- Recettes -->
   <url><loc>https://recettes-gigi.vercel.app/cookies-laura-todd.html</loc></url>
   <url><loc>https://recettes-gigi.vercel.app/focaccia-peppe.html</loc></url>
   <url><loc>https://recettes-gigi.vercel.app/meringue-suisse.html</loc></url>
@@ -16,5 +19,8 @@
   <url><loc>https://recettes-gigi.vercel.app/noisettes-caramelisees.html</loc></url>
   <url><loc>https://recettes-gigi.vercel.app/gateau-chocolat-lenotre.html</loc></url>
   <url><loc>https://recettes-gigi.vercel.app/houmous.html</loc></url>
+
+  <!-- Nouvelle recette -->
+  <url><loc>https://recettes-gigi.vercel.app/suzy.html</loc></url>
 
 </urlset>
