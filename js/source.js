@@ -23,4 +23,11 @@ fetch("data/recettes.json")
                 <p><strong>Source :</strong> ${recette.source}</p>
             `;
         }
+
+        if (pageId === "crumble-felder") {
+    bloc.innerHTML = `
+        <p><strong>Source :</strong> Recette inspirée du livre de Christophe Felder, Pâtisserie.</p>
+    `;
+}
+
     });

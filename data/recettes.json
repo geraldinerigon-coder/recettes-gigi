@@ -27,6 +27,14 @@
        
     }
     ,  
+    {
+    "id": "crumble-felder",
+    "titre": "Crumble aux pommes (Christophe Felder)",
+    "categorie": ["Desserts", "Rapide"],
+    "image": "images/crumble.jpg",
+    "url": "recettes/crumble-felder.html"
+}
+,
  {
       "titre": "Focaccia de Peppe",
       "url": "focaccia-peppe.html",
