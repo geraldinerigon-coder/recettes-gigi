@@ -114,11 +114,13 @@
   {
     "id": "pain-riz-basmati-sans-gluten",
     "titre": "Pain sans gluten au riz basmati",
-    "categorie": ["SansGluten", "Pain"],
+    "categorie": [
+      "Sans Gluten",
+      "Pain"
+    ],
     "image": "images/pain-riz-basmati1.jpg",
     "url": "pain-riz-basmati-sans-gluten.html"
-}
-,
+  },
   {
     "titre": "Pâte à tartiner noisette de Christophe Michalak",
     "url": "pate-a-tartiner-michalak.html",
