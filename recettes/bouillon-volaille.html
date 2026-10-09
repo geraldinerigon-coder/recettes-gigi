@@ -13,144 +13,130 @@
 
 <body>
 
-<header class="header-gigi">
-    <div class="header-top">
-        <div class="header-left">
-            <img src="../images/logo.png" alt="Logo Gigi" class="logo-gigi">
+    <!-- HEADER -->
+    <header class="header-gigi">
+        <div class="header-top">
+            <div class="header-left">
+                <img src="../images/logo.png" alt="Logo Gigi" class="logo-gigi">
+            </div>
+
+            <div class="header-center">
+                <h1>Les Recettes Parfaites de Gigi</h1>
+                <p class="tagline">Des recettes simples, précises et toujours réussies</p>
+            </div>
+
+            <div class="header-right"></div>
+        </div>
+    </header>
+
+    <!-- MENU -->
+    <nav class="menu-gigi">
+        <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../recettes.html">Toutes les recettes</a></li>
+            <li><a href="../categories.html">Recettes par Catégories</a></li>
+            <li><a href="../apropos.html">À propos</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENU DE LA RECETTE -->
+    <main class="recette-container">
+
+        <h2 class="titre-recette">Bouillon de volaille maison</h2>
+
+        <!-- Infos clés -->
+        <div class="infos-cle">
+            <span>⏱️ 2 h de cuisson</span>
+            <span>🔥 Très facile</span>
+            <span>👥 1,5 L de bouillon</span>
         </div>
 
-        <div class="header-center">
-            <h1>Les Recettes Parfaites de Gigi</h1>
-            <p class="tagline">Des recettes simples, précises et toujours réussies</p>
+        <!-- Galerie de photos -->
+        <div class="galerie-recette">
+            <img src="../images/bouillon-volaille.jpg" alt="Bouillon de volaille maison">
         </div>
 
-        <div class="header-right"></div>
-    </div>
-</header>
+        <!-- Mise en page 2 colonnes -->
+        <div class="recette-layout">
 
-<nav class="menu-gigi">
-    <ul>
-        <li><a href="../index.html">Accueil</a></li>
-        <li><a href="../recettes.html">Toutes les recettes</a></li>
-        <li><a href="../categories.html">Recettes par Catégories</a></li>
-        <li><a href="../apropos.html">À propos</a></li>
-    </ul>
-</nav>
+            <!-- Colonne ingrédients -->
+            <aside class="ingredients-col">
+                <h3>Ingrédients</h3>
 
-<main class="recette-container">
+                <ul>
+                    <li>1 carcasse de poulet (ou 2 cuisses)</li>
+                    <li>2 carottes</li>
+                    <li>1 poireau</li>
+                    <li>1 branche de céleri</li>
+                    <li>1 oignon</li>
+                    <li>2 gousses d’ail</li>
+                    <li>1 bouquet garni</li>
+                    <li>10 grains de poivre</li>
+                    <li>1,5 L d’eau</li>
+                    <li>Sel (à ajuster en fin de cuisson)</li>
+                </ul>
 
-    <h2 class="titre-recette">Bouillon de volaille maison</h2>
+                <h3>Matériel</h3>
+                <ul>
+                    <li>Grande casserole</li>
+                    <li>Passoire fine</li>
+                    <li>Récipient pour filtrer</li>
+                </ul>
+            </aside>
 
-    <div class="infos-cle">
-        <span>⏱️ 2 h de cuisson</span>
-        <span>🔥 Très facile</span>
-        <span>👥 1,5 L de bouillon</span>
-    </div>
+            <!-- Colonne étapes -->
+            <section class="etapes-col">
+                <h3>Étapes</h3>
+                <ol>
+                    <li><strong>Préparez les légumes</strong><br>
+                        Épluchez les carottes, l’oignon et l’ail.  
+                        Coupez le poireau et le céleri en tronçons.
+                    </li>
 
-    <div class="galerie-recette">
-        <img src="../images/bouillon-volaille.jpg" alt="Bouillon de volaille maison">
-    </div>
+                    <li><strong>Placez tout dans une grande casserole</strong><br>
+                        Ajoutez :  
+                        <ul>
+                            <li>la carcasse de poulet</li>
+                            <li>les légumes</li>
+                            <li>le bouquet garni</li>
+                            <li>les grains de poivre</li>
+                        </ul>
+                        Versez 1,5 L d’eau.
+                    </li>
 
-    <div class="recette-layout">
+                    <li><strong>Cuisson</strong><br>
+                        Portez à frémissement, puis laissez cuire <strong>2 heures</strong> à feu doux.  
+                        Écumez régulièrement pour obtenir un bouillon clair.
+                    </li>
 
-        <aside class="ingredients-col">
-            <h3>Ingrédients</h3>
-            <ul>
-                <li>1 carcasse de poulet (ou 2 cuisses)</li>
-                <li>2 carottes</li>
-                <li>1 poireau</li>
-                <li>1 branche de céleri</li>
-                <li>1 oignon</li>
-                <li>2 gousses d’ail</li>
-                <li>1 bouquet garni</li>
-                <li>10 grains de poivre</li>
-                <li>1,5 L d’eau</li>
-                <li>Sel (à ajuster en fin de cuisson)</li>
-            </ul>
+                    <li><strong>Filtrez</strong><br>
+                        Passez le bouillon dans une passoire fine.  
+                        Ajustez le sel.
+                    </li>
 
-            <h3>Matériel</h3>
-            <ul>
-                <li>Grande casserole</li>
-                <li>Passoire fine</li>
-                <li>Récipient pour filtrer</li>
-            </ul>
-        </aside>
+                    <li><strong>Utilisation</strong><br>
+                        Idéal pour :  
+                        <ul>
+                            <li>risottos</li>
+                            <li>sauces</li>
+                            <li>soups</li>
+                            <li>plats mijotés</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
 
-        <section class="etapes-col">
-            <h3>Étapes</h3>
-            <ol>
-                <li><strong>Préparez les légumes</strong><br>
-                    Épluchez les carottes, l’oignon et l’ail.  
-                    Coupez le poireau et le céleri en tronçons.
-                </li>
+        </div>
 
-                <li><strong>Placez tout dans une grande casserole</strong><br>
-                    Ajoutez :  
-                    <ul>
-                        <li>la carcasse de poulet</li>
-                        <li>les légumes</li>
-                        <li>le bouquet garni</li>
-                        <li>les grains de poivre</li>
-                    </ul>
-                    Versez 1,5 L d’eau.
-                </li>
+        <!-- Bloc source -->
+        <div class="source-recette" id="source-recette"></div>
 
-                <li><strong>Cuisson</strong><br>
-                    Portez à frémissement, puis laissez cuire **2 heures** à feu doux.  
-                    Écumez régulièrement pour obtenir un bouillon clair.
-                </li>
+    </main>
 
-                <li><strong>Filtrez</strong><br>
-                    Passez le bouillon dans une passoire fine.  
-                    Ajustez le sel.
-                </li>
-
-                <li><strong>Utilisation</strong><br>
-                    Idéal pour :  
-                    <ul>
-                        <li>risottos</li>
-                        <li>sauces</li>
-                        <li>soups</li>
-                        <li>plats mijotés</li>
-                    </ul>
-                </li>
-            </ol>
-        </section>
-
-    </div>
-
-    <div id="bloc-source" class="bloc-source"></div>
-
-</main>
-
-<h3 class="titre-commentaires">Commentaires</h3>
-<div class="rating-container">
-    <div class="stars" data-recipe="bouillon-volaille">
-        <span data-value="1">⭐</span>
-        <span data-value="2">⭐</span>
-        <span data-value="3">⭐</span>
-        <span data-value="4">⭐</span>
-        <span data-value="5">⭐</span>
-    </div>
-    <p class="rating-count">0 votes</p>
-</div>
-
-<div class="commentbox"></div>
-
-<script src="https://unpkg.com/commentbox.io/dist/commentbox.min.js"></script>
-<script>
-    commentBox('5716894526996480-proj', {
-        className: 'commentbox',
-        defaultBoxId: 'bouillon-volaille',
-        backgroundColor: '#F7F3EC'
-    });
-</script>
-
-<footer class="footer">
-    <p>© 2026 Les Recettes Parfaites de Gigi — Tous droits réservés</p>
-</footer>
-
-<script src="../js/commentbox.js"></script>
+    <!-- FOOTER -->
+    <footer class="footer-gigi">
+        <p>&copy; 2024 Les Recettes Parfaites de Gigi. Tous droits réservés.</p>
+    </footer>
 
 </body>
 </html>
