@@ -112,6 +112,14 @@
     "source": "Les desserts qui me font craquer de Christophe Michalak, 2010"
   },
   {
+    "id": "pain-sans-gluten-riz-basmati",
+    "titre": "Pain sans gluten au riz basmati",
+    "categorie": ["SansGluten", "Riz", "BaseCulinaire"],
+    "image": "images/pain-sans-gluten-riz.jpg",
+    "url": "recettes/pain-sans-gluten-riz-basmati.html"
+}
+,
+  {
     "titre": "Pâte à tartiner noisette de Christophe Michalak",
     "url": "pate-a-tartiner-michalak.html",
     "image": "images/pateatartiner1.jpg",
