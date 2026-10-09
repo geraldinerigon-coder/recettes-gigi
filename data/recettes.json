@@ -93,7 +93,18 @@
     "date": "2026-06-29",
     "source_url": "https://www.cestmafournee.com"
   },
-    {
+  {
+    "id": "mousse-chocolat-cyril-lignac",
+    "titre": "Mousse au chocolat (Cyril Lignac)",
+    "categorie": [
+      "Desserts",
+      "Chocolat",
+      "Chef"
+    ],
+    "image": "images/moussechocolat1.jpg",
+    "url": "recettes/mousse-chocolat-cyril-lignac.html"
+  },
+  {
     "titre": "Noisettes caramélisées",
     "url": "noisettes-caramelisees.html",
     "image": "images/noisettes1.jpg",
@@ -115,7 +126,6 @@
     "date": "2026-08-20",
     "source": "Stéphane Jego"
   },
-  
   {
     "titre": "Suzy – Gâteau au chocolat fondant (Pierre Hermé)",
     "url": "suzy.html",

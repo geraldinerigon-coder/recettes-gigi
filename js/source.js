@@ -16,7 +16,7 @@ fetch("data/recettes.json")
                     <a href="${recette.source_url}" target="_blank">${recette.source}</a>
                 </p>
             `;
-        } 
+        }
         // Sinon → texte simple
         else {
             bloc.innerHTML = `
@@ -25,9 +25,15 @@ fetch("data/recettes.json")
         }
 
         if (pageId === "crumble-felder") {
-    bloc.innerHTML = `
+            bloc.innerHTML = `
         <p><strong>Source :</strong> Recette inspirée du livre de Christophe Felder, Pâtisserie.</p>
     `;
-}
+        }
+        if (pageId === "mousse-chocolat-cyril-lignac") {
+            bloc.innerHTML = `
+        <p><strong>Source :</strong> Recette inspirée du livre de Cyril Lignac « Fait Maison spécial pâtisserie ».</p>
+    `;
+        }
+
 
     });
