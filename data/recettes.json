@@ -110,4 +110,13 @@
     "date": "2026-09-08",
     "source": "Pierre Hermé"
   }
+  {
+    "id": "bouillon-volaille",
+    "titre": "Bouillon de volaille maison",
+    "categorie": ["BaseCulinaire"],
+    "image": "images/bouillon-volaille1.jpg",
+    "date": "2026-06-08",
+    "url": "recettes/bouillon-volaille.html"
+}
+
 ]
