@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/recettes.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
-    
+
 </head>
 
 <body>
@@ -33,7 +34,7 @@
     <nav class="menu-gigi">
         <ul>
             <li><a href="index.html">Accueil</a></li>
-           
+
             <li><a href="recettes.html" class="active">Toutes les recettes</a></li>
             <li><a href="categories.html">Recettes par Catégories</a></li>
             <li><a href="apropos.html">À propos</a></li>
@@ -50,177 +51,139 @@
     <section class="liste-recettes">
 
         <!-- FILTRES -->
-<div class="filtres-container">
-    <input type="text" id="recherche" placeholder="Rechercher une recette...">
+        <div class="filtres-container">
+            <input type="text" id="recherche" placeholder="Rechercher une recette...">
 
-    <select id="filtre-categorie">
-    <option value="toutes">Toutes les catégories</option>
-    <option value="Apéro">Apéro</option>
-    <option value="Chocolat">Chocolat</option>
+            <select id="filtre-categorie">
+                <option value="toutes">Toutes les catégories</option>
+                <option value="Apéro">Apéro</option>
+                <option value="Chocolat">Chocolat</option>
 
-    <option value="Pizza">Pizza / Pain</option>
-    <option value="Desserts">Desserts</option>
+                <option value="Pizza">Pizza / Pain</option>
+                <option value="Desserts">Desserts</option>
 
-    <option value="PoisChiches">Pois Chiches</option>
-    <option value="Salades">Salades</option>
-    <option value="Soupes">Soupes</option>
-    <option value="Pâtes">Pâtes</option>
-    <option value="Riz">Riz</option>
-    <option value="Tomates">Tomates</option>
-    <option value="Cookies">Cookies</option>
-    <option value="Recettes asiatiques">Recettes asiatiques</option>
-    <option value="Recettes de chef">Recettes de chef</option>
-    <option value="Sans gluten">Sans gluten</option>
-    <!-- ajoute ici toutes les autres catégories que tu veux -->
-</select>
-
-
+                <option value="PoisChiches">Pois Chiches</option>
+                <option value="Salades">Salades</option>
+                <option value="Soupes">Soupes</option>
+                <option value="Pâtes">Pâtes</option>
+                <option value="Riz">Riz</option>
+                <option value="Tomates">Tomates</option>
+                <option value="Cookies">Cookies</option>
+                <option value="Recettes asiatiques">Recettes asiatiques</option>
+                <option value="Recettes de chef">Recettes de chef</option>
+                <option value="Sans gluten">Sans gluten</option>
+                <!-- ajoute ici toutes les autres catégories que tu veux -->
+            </select>
 
 
 
 
-    
-</div>
+        </div>
 
 
         <div class="recettes-grid">
 
             <!-- CARTE RECETTE -->
 
-            <a href="biscuits-a-la-cuiller.html" 
-   class="carte-recette" 
-   data-categorie="Desserts">
-    <img src="images/biscuits-cuiller1.jpg" alt="Biscuits à la cuiller">
-    <h3>Biscuits à la cuiller</h3>
-    <p>⏱️ 25 min — 🔥 Facile — 👥 40 biscuits</p>
-</a>
+            <a href="biscuits-a-la-cuiller.html" class="carte-recette" data-categorie="Desserts">
+                <img src="images/biscuits-cuiller1.jpg" alt="Biscuits à la cuiller">
+                <h3>Biscuits à la cuiller</h3>
+                <p>⏱️ 25 min — 🔥 Facile — 👥 40 biscuits</p>
+            </a>
 
-<a href="cookies-laura-todd.html" 
-   class="carte-recette" 
-   data-categorie="Desserts, Goûter, Cookies">
-    <img src="images/cookies1.jpg" alt="Cookies comme chez Laura Todd">
-    <h3>Cookies façon Laura Todd</h3>
-</a>
+            <a href="cookies-laura-todd.html" class="carte-recette" data-categorie="Desserts, Goûter, Cookies">
+                <img src="images/cookies1.jpg" alt="Cookies comme chez Laura Todd">
+                <h3>Cookies façon Laura Todd</h3>
+            </a>
 
-<a href="creme-renversee-caramel.html" 
-   class="carte-recette" 
-   data-categorie="Desserts, Oeufs">
-    <img src="images/cremerenversee1.jpg" alt="Crème renversée au caramel">
-    <h3>Crème renversée au caramel</h3>
-</a>
-<a href="crumble-felder.html" 
-   class="carte-recette" 
-   data-categorie="Desserts, Rapide">
-    <img src="images/crumble1.jpg" alt="Crumble aux pommes (Christophe Felder)">
-    <h3>Crumble aux pommes de Christophe Felder</h3>
-</a>
+            <a href="creme-renversee-caramel.html" class="carte-recette" data-categorie="Desserts, Oeufs">
+                <img src="images/cremerenversee1.jpg" alt="Crème renversée au caramel">
+                <h3>Crème renversée au caramel</h3>
+            </a>
+            <a href="crumble-felder.html" class="carte-recette" data-categorie="Desserts, Rapide">
+                <img src="images/crumble1.jpg" alt="Crumble aux pommes (Christophe Felder)">
+                <h3>Crumble aux pommes de Christophe Felder</h3>
+            </a>
 
-     <a href="focaccia-sans-petrissage.html" 
-   class="carte-recette" 
-   data-categorie="Pizza">
-    <img src="images/focaccia1.jpg" alt="Focaccia sans pétrissage">
-    <h3>Focaccia sans pétrissage</h3>
-</a>
+            <a href="focaccia-sans-petrissage.html" class="carte-recette" data-categorie="Pizza">
+                <img src="images/focaccia1.jpg" alt="Focaccia sans pétrissage">
+                <h3>Focaccia sans pétrissage</h3>
+            </a>
 
-     <a href="focaccia-peppe.html" 
-   class="carte-recette" 
-   data-categorie="Pizza">
-    <img src="images/focaccia-peppe1.jpg" alt="Focaccia de Peppe">
-    <h3>Focaccia de Peppe</h3>
-</a>
+            <a href="focaccia-peppe.html" class="carte-recette" data-categorie="Pizza">
+                <img src="images/focaccia-peppe1.jpg" alt="Focaccia de Peppe">
+                <h3>Focaccia de Peppe</h3>
+            </a>
 
-<a href="focaccia-bartocetti-zanoni.html" 
-    class="carte-recette" 
-    data-categorie="Pizza">
-    <img src="images/focaccia-bartocetti1.jpg" alt="Focaccia de Bartocetti et Zanoni">
-    <h3>Focaccia de Bartocetti & Zanoni</h3>
-</a>
+            <a href="focaccia-bartocetti-zanoni.html" class="carte-recette" data-categorie="Pizza">
+                <img src="images/focaccia-bartocetti1.jpg" alt="Focaccia de Bartocetti et Zanoni">
+                <h3>Focaccia de Bartocetti & Zanoni</h3>
+            </a>
 
-<a href="gateau-chocolat-lenotre.html" 
-   class="carte-recette" 
-   data-categorie="Desserts">
-    <img src="images/gateau-lenotre1.jpg" alt="Gâteau au chocolat Lenôtre">
-    <h3>Gâteau au chocolat Lenôtre</h3>
-</a>
+            <a href="gateau-chocolat-lenotre.html" class="carte-recette" data-categorie="Desserts, Chocolat">
+                <img src="images/gateau-lenotre1.jpg" alt="Gâteau au chocolat Lenôtre">
+                <h3>Gâteau au chocolat Lenôtre</h3>
+            </a>
 
-<a href="houmous.html" class="carte-recette" data-categorie="Apéro,PoisChiches">
-    <img src="images/houmous1.jpg" alt="Houmous ultra crémeux">
-    <h3>Houmous ultra crémeux</h3>
-</a>
+            <a href="houmous.html" class="carte-recette" data-categorie="Apéro,PoisChiches">
+                <img src="images/houmous1.jpg" alt="Houmous ultra crémeux">
+                <h3>Houmous ultra crémeux</h3>
+            </a>
 
 
 
+            <a href="ile-flottante.html" class="carte-recette" data-categorie="Desserts">
+                <img src="images/ile-flottante1.jpg" alt="Île Flottante de Lenôtre">
+                <h3>Île Flottante de Lenôtre</h3>
+            </a>
 
-<a href="ile-flottante.html" class="carte-recette" data-categorie="Desserts">
-    <img src="images/ile-flottante1.jpg" alt="Île Flottante de Lenôtre">
-    <h3>Île Flottante de Lenôtre</h3>
-</a>
+            <a href="merveilleux.html" class="carte-recette" data-categorie="Desserts">
+                <img src="images/merveilleux1.jpg" alt="Merveilleux ">
+                <h3>Merveilleux</h3>
+            </a>
 
-<a href="merveilleux.html" 
-   class="carte-recette" 
-   data-categorie="Desserts">
-    <img src="images/merveilleux1.jpg" alt="Merveilleux ">
-    <h3>Merveilleux</h3>
-</a>
-
-<a href="macarons-vanille.html" class="carte-recette" data-categorie="Desserts">
-    <img src="images/macarons1.jpg" alt="Macarons à la vanille">
-    <h3>Macarons à la vanille</h3>
-</a>
+            <a href="macarons-vanille.html" class="carte-recette" data-categorie="Desserts">
+                <img src="images/macarons1.jpg" alt="Macarons à la vanille">
+                <h3>Macarons à la vanille</h3>
+            </a>
 
 
-<a href="noisettes-caramelisees.html" 
-   class="carte-recette" 
-   data-categorie="Desserts">
-    <img src="images/noisettes1.jpg" alt="Noisettes caramélisées">
-    <h3>Noisettes caramélisées</h3>
-     <p>
-  ⏱️ 15 min 🔥 Très facile 👥 Environ 400 g      </p>
-          
-       
-</a>
+            <a href="noisettes-caramelisees.html" class="carte-recette" data-categorie="Desserts">
+                <img src="images/noisettes1.jpg" alt="Noisettes caramélisées">
+                <h3>Noisettes caramélisées</h3>
+                <p>
+                    ⏱️ 15 min 🔥 Très facile 👥 Environ 400 g </p>
+            </a>
 
 
-<a href="pate-a-tartiner-michalak.html" 
-   class="carte-recette" 
-   data-categorie="Desserts">
-    <img src="images/pate-tartiner1.jpg" alt="Pâte à tartiner noisette Michalak">
-    <h3>Pâte à tartiner noisette – Michalak</h3>
-    <p>⏱️ Plusieurs étapes — 🔥 Moyen — 👥 750g de pâte</p>
-</a>
+            <a href="pate-a-tartiner-michalak.html" class="carte-recette" data-categorie="Desserts">
+                <img src="images/pate-tartiner1.jpg" alt="Pâte à tartiner noisette Michalak">
+                <h3>Pâte à tartiner noisette – Michalak</h3>
+                <p>⏱️ Plusieurs étapes — 🔥 Moyen — 👥 750g de pâte</p>
+            </a>
 
 
-<a href="taboule.html" 
-   class="carte-recette" 
-   data-categorie="Salades, Entrées">
-    <img src="images/taboule1.jpg" alt="Taboulé">
-    <h3>Taboulé</h3>
-</a>
+            <a href="taboule.html" class="carte-recette" data-categorie="Salades, Entrées">
+                <img src="images/taboule1.jpg" alt="Taboulé">
+                <h3>Taboulé</h3>
+            </a>
 
 
+            <a href="riz-au-lait-stephane-jego.html" class="carte-recette" data-categorie="Desserts, Riz">
+                <img src="images/rizaulait1.jpg" alt="Riz au lait de Stéphane Jego">
+                <h3>Riz au lait de Stéphane Jego</h3>
+            </a>
 
-<a href="riz-au-lait-stephane-jego.html" 
-   class="carte-recette" 
-   data-categorie="Desserts, Riz">
-    <img src="images/rizaulait1.jpg" alt="Riz au lait de Stéphane Jego">
-    <h3>Riz au lait de Stéphane Jego</h3>
-</a>
-
-<a href="meringue-suisse.html" 
-   class="carte-recette" 
-   data-categorie="Desserts">
-    <img src="images/meringuesuisse1.jpg" alt="Meringue Suisse">
-    <h3>Meringue Suisse</h3>
-</a>
+            <a href="meringue-suisse.html" class="carte-recette" data-categorie="Desserts">
+                <img src="images/meringuesuisse1.jpg" alt="Meringue Suisse">
+                <h3>Meringue Suisse</h3>
+            </a>
 
 
-
-<a href="suzy.html" 
-   class="carte-recette" 
-   data-categorie="Dessert,Chocolat">
-    <img src="images/suzy1.jpg" alt="Suzy – Gâteau au chocolat fondant">
-    <h3>Suzy – Gâteau au chocolat fondant</h3>
-</a>
+            <a href="suzy.html" class="carte-recette" data-categorie="Dessert,Chocolat">
+                <img src="images/suzy1.jpg" alt="Suzy – Gâteau au chocolat fondant">
+                <h3>Suzy – Gâteau au chocolat fondant</h3>
+            </a>
 
 
 
@@ -235,8 +198,9 @@
         <p>© 2026 Les Recettes Parfaites de Gigi — Tous droits réservés</p>
     </footer>
 
-<script src="js/recettes.js" defer></script>
+    <script src="js/recettes.js" defer></script>
 
 
 </body>
+
 </html>
