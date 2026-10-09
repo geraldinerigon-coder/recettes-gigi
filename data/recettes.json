@@ -122,6 +122,14 @@
     "url": "pain-riz-basmati-sans-gluten.html"
   },
   {
+    "id": "pate-a-crepe",
+    "titre": "Pâte à crêpes",
+    "categorie": ["Desserts"],
+    "image": "images/pate-a-crepe1.jpg",
+    "url": "recettes/pate-a-crepe.html"
+}
+,
+  {
     "titre": "Pâte à tartiner noisette de Christophe Michalak",
     "url": "pate-a-tartiner-michalak.html",
     "image": "images/pateatartiner1.jpg",
