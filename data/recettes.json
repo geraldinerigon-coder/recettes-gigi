@@ -1,15 +1,11 @@
 [
-  
   {
-        "titre": "Biscuits à la cuiller",
-        "url": "biscuits-a-la-cuiller.html",
-        "image": "images/biscuits-cuiller1.jpg",
-        "date": "2026-07-21",
-        "source": "Faites votre Pâtisserie comme LENÔTRE éd Flammarion 1975"
-
-    },
-
- 
+    "titre": "Biscuits à la cuiller",
+    "url": "biscuits-a-la-cuiller.html",
+    "image": "images/biscuits-cuiller1.jpg",
+    "date": "2026-07-21",
+    "source": "Faites votre Pâtisserie comme LENÔTRE éd Flammarion 1975"
+  },
   {
     "titre": "Cookies façon Laura Todd",
     "url": "cookies-laura-todd.html",
@@ -17,118 +13,101 @@
     "date": "2026-06-29",
     "source": "C’est ma fournée",
     "source_url": "https://www.cestmafournee.com"
-},
- {
-        "titre": "Crème renversée au caramel",
-        "url": "creme-renversee-caramel.html",
-        "image": "images/cremerenversee1.jpg",
-        "date": "2026-07-29",
-        "source": "Faites votre Pâtisserie comme LENÔTRE éd Flammarion 1981"
-       
-    }
-    ,  
-    {
+  },
+  {
+    "titre": "Crème renversée au caramel",
+    "url": "creme-renversee-caramel.html",
+    "image": "images/cremerenversee1.jpg",
+    "date": "2026-07-29",
+    "source": "Faites votre Pâtisserie comme LENÔTRE éd Flammarion 1981"
+  },
+  {
     "id": "crumble-felder",
     "titre": "Crumble aux pommes (Christophe Felder)",
-    "categorie": ["Desserts", "Rapide"],
+    "categorie": ["Desserts",      "Rapide"],
     "image": "images/crumble1.jpg",
     "date": "2026-07-29",
     "url": "recettes/crumble-felder.html"
-}
-,
- {
-      "titre": "Focaccia de Peppe",
-      "url": "focaccia-peppe.html",
-      "image": "images/focaccia1.jpg",
-      "date": "2026-06-27"
-    },
-    {
-        "titre": "Meringue Suisse",
-        "url": "meringue-suisse.html",
-        "image": "images/meringuesuisse1.jpg",
-        "date": "2026-06-29"
-    },
-{
-        "titre": "Merveilleux",
-        "url": "merveilleux.html",
-        "image": "images/merveilleux1.jpg",
-        "date": "2026-06-29",
-        "source_url": "https://www.cestmafournee.com"
-    }
-,
-{
-        "titre": "Riz au lait de Stéphane Jego",
-        "url": "riz-au-lait-stephane-jego.html", 
-        "image": "images/rizaulait1.jpg",
-        "date": "2026-08-20",
-        "source": "Stéphane Jego"
-        
-    }
-    ,
-
-    {
-        "titre": "Pâte à tartiner noisette de Christophe Michalak",
-  "url": "pate-a-tartiner-michalak.html",
-  "image": "images/pateatartiner1.jpg",
-  "date": "2026-07-15",
-  "source": "Recette trouvée sur le site « C’est ma fournée »",
-  "source_url": "https://www.cestmafournee.com"
-},
-{
-   "titre": "Noisettes caramélisées", 
-  "url": "noisettes-caramelisees.html",
-   "image": "images/noisettes1.jpg",
-   "date": "2026-07-21",
-  "source": "Les desserts qui me font craquer de Christophe Michalak, 2010"
-  
-},
-
-{
-  "titre": "Gâteau au chocolat Lenôtre",
-  "url": "gateau-chocolat-lenotre.html",
-  "image": "gateau-lenotre1.jpg",
-  "date": "2026-07-02",
-  "source": "Faites votre pâtisserie comme Lenôtre – Flammarion"
-},
-
-{
-  "titre": "Macarons à la vanille",
-  "url": "macarons-vanille.html",
-  "image": "images/macarons1.jpg",
-  "date": "2026-08-15",
-  "source": "https://lacuisinedebernard.com/les-macarons-base-sans-garniture/"
-},
-
-{
-  "titre": "Île Flottante de Lenôtre",
-  "url": "ile-flottante.html",
-  "image": "images/ile-flottante1.jpg",
-  "categorie": "Desserts",
-  "date": "2026-08-20",
-  "source": "Lenôtre"
-},
-
-
-{
-  "titre": "Houmous ultra crémeux",
-  "url": "houmous.html",
-  "image": "images/houmous1.jpg",
-  "categorie": "Apéro",
-  "date": "2026-09-03",
-  "source": "C'est ma fournée"
-},
-{
-  "titre": "Suzy – Gâteau au chocolat fondant (Pierre Hermé)",
-  "url": "suzy.html",
-  "image": "images/suzy1.jpg",
-  "categorie": "Dessert",
-  "date": "2026-09-08",
-  "source": "Pierre Hermé"
-}
-
-
-
-
+  },
+  {
+    "titre": "Focaccia de Peppe",
+    "url": "focaccia-peppe.html",
+    "image": "images/focaccia1.jpg",
+    "date": "2026-06-27"
+  },
+  {
+    "titre": "Meringue Suisse",
+    "url": "meringue-suisse.html",
+    "image": "images/meringuesuisse1.jpg",
+    "date": "2026-06-29"
+  },
+  {
+    "titre": "Merveilleux",
+    "url": "merveilleux.html",
+    "image": "images/merveilleux1.jpg",
+    "date": "2026-06-29",
+    "source_url": "https://www.cestmafournee.com"
+  },
+  {
+    "titre": "Riz au lait de Stéphane Jego",
+    "url": "riz-au-lait-stephane-jego.html",
+    "image": "images/rizaulait1.jpg",
+    "date": "2026-08-20",
+    "source": "Stéphane Jego"
+  },
+  {
+    "titre": "Pâte à tartiner noisette de Christophe Michalak",
+    "url": "pate-a-tartiner-michalak.html",
+    "image": "images/pateatartiner1.jpg",
+    "date": "2026-07-15",
+    "source": "Recette trouvée sur le site « C’est ma fournée »",
+    "source_url": "https://www.cestmafournee.com"
+  },
+  {
+    "titre": "Noisettes caramélisées",
+    "url": "noisettes-caramelisees.html",
+    "image": "images/noisettes1.jpg",
+    "date": "2026-07-21",
+    "source": "Les desserts qui me font craquer de Christophe Michalak, 2010"
+  },
+  {
+    "titre": "Gâteau au chocolat Lenôtre",
+    "url": "gateau-chocolat-lenotre.html",
+    "image": "images/gateau-lenotre1.jpg",
+    "categorie": "Chocolat",
+    "date": "2026-07-02",
+    "source": "Faites votre pâtisserie comme Lenôtre – Flammarion"
+  },
+  {
+    "titre": "Macarons à la vanille",
+    "url": "macarons-vanille.html",
+    "image": "images/macarons1.jpg",
+    "categorie": "Desserts",
+    "date": "2026-08-15",
+    "source": "https://lacuisinedebernard.com/les-macarons-base-sans-garniture/"
+  },
+  {
+    "titre": "Île Flottante de Lenôtre",
+    "url": "ile-flottante.html",
+    "image": "images/ile-flottante1.jpg",
+    "categorie": "Desserts",
+    "date": "2026-08-20",
+    "source": "Lenôtre"
+  },
+  {
+    "titre": "Houmous ultra crémeux",
+    "url": "houmous.html",
+    "image": "images/houmous1.jpg",
+    "categorie": "Apéro",
+    "date": "2026-09-03",
+    "source": "C'est ma fournée"
+  },
+  {
+    "titre": "Suzy – Gâteau au chocolat fondant (Pierre Hermé)",
+    "url": "suzy.html",
+    "image": "images/suzy1.jpg",
+    "categorie": "Dessert",
+    "date": "2026-09-08",
+    "source": "Pierre Hermé"
+  }
 ]
-
-
