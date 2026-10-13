@@ -80,3 +80,27 @@
         padding: 18px;
     }
 }
+
+
+/* --- Icônes dans les catégories (SVG ou PNG) --- */
+
+.categorie-card {
+    flex-direction: row !important;      /* Icône + texte côte à côte */
+    justify-content: flex-start !important;
+    text-align: left !important;
+    gap: 12px;                            /* Espace entre icône et texte */
+}
+
+/* Taille des icônes */
+.categorie-card img,
+.categorie-card svg {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    display: inline-block;
+}
+
+/* Désactive l'effet first-letter (inutile avec icônes) */
+.categorie-card::first-letter {
+    font-size: inherit !important;
+}
