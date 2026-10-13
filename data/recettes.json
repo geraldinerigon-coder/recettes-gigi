@@ -2,10 +2,21 @@
   {
     "titre": "Biscuits à la cuiller",
     "url": "biscuits-a-la-cuiller.html",
+    "categorie": ["Biscuits", "BaseCulinaire"],
     "image": "images/biscuits-cuiller1.jpg",
     "date": "2026-07-21",
     "source": "Faites votre Pâtisserie comme LENÔTRE éd Flammarion 1975"
   },
+
+  {
+    "id": "biscuits-savoiardi",
+    "titre": "Biscuits Savoiardi",
+    "categorie": ["Biscuits", "BaseCulinaire"],
+    "image": "images/biscuits-savoiardi1.jpg",
+    "date": "2026-10-13",
+    "url": "biscuits-savoiardi.html"
+},
+
   {
     "id": "bouillon-volaille",
     "titre": "Bouillon de volaille maison",
