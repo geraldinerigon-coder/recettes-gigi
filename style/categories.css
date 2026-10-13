@@ -1,62 +1,79 @@
+/* -------------------------------------------------- */
+/* PAGE CATÉGORIES — VERSION PREMIUM MINIMALISTE      */
+/* -------------------------------------------------- */
+
 /* CONTENEUR GLOBAL */
 .categories-container {
     max-width: 1100px;
-    margin: 50px auto;
+    margin: 60px auto;
     padding: 0 20px;
 }
 
-/* TITRE */
+/* TITRE PRINCIPAL */
 .titre-page {
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     color: #8b5e34;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 /* INTRO */
 .intro-categories {
     text-align: center;
     color: #5a4633;
-    margin-bottom: 40px;
-    font-size: 1.25rem;
-    line-height: 1.6;
+    margin-bottom: 45px;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* GRILLE ÉLÉGANTE */
+/* GRILLE */
 .liste-categories {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 30px;
-    padding-bottom: 60px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 32px;
+    padding-bottom: 70px;
 }
 
-/* CARTES CATÉGORIES */
+/* CARTES */
 .categorie-card {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;          /* Icône + texte côte à côte */
     align-items: center;
+    gap: 14px;
 
     background: #f7f3ec;
     border: 2px solid #d9c7a3;
     border-radius: 14px;
 
-    padding: 25px 20px;
-    text-align: center;
-
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: #5a4633;
+    padding: 22px 20px;
     text-decoration: none;
+
+    color: #5a4633;
+    font-size: 1.35rem;
+    font-weight: 600;
 
     transition: all 0.25s ease;
     box-shadow: 0 3px 6px rgba(0,0,0,0.06);
 }
 
-/* ICÔNE + TEXTE */
-.categorie-card::first-letter {
-    font-size: 1.6rem;
+/* ICÔNES SVG */
+.categorie-card img,
+.categorie-card svg {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    display: inline-block;
+}
+
+/* TEXTE */
+.categorie-card span {
+    display: inline-block;
+    line-height: 1.2;
 }
 
 /* HOVER */
@@ -68,39 +85,22 @@
     box-shadow: 0 6px 14px rgba(0,0,0,0.12);
 }
 
-/* VERSION MOBILE */
+/* MOBILE */
 @media (max-width: 600px) {
     .liste-categories {
         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        gap: 20px;
+        gap: 22px;
     }
 
     .categorie-card {
         font-size: 1.2rem;
         padding: 18px;
+        gap: 10px;
     }
-}
 
-
-/* --- Icônes dans les catégories (SVG ou PNG) --- */
-
-.categorie-card {
-    flex-direction: row !important;      /* Icône + texte côte à côte */
-    justify-content: flex-start !important;
-    text-align: left !important;
-    gap: 12px;                            /* Espace entre icône et texte */
-}
-
-/* Taille des icônes */
-.categorie-card img,
-.categorie-card svg {
-    width: 32px;
-    height: 32px;
-    flex-shrink: 0;
-    display: inline-block;
-}
-
-/* Désactive l'effet first-letter (inutile avec icônes) */
-.categorie-card::first-letter {
-    font-size: inherit !important;
+    .categorie-card img,
+    .categorie-card svg {
+        width: 28px;
+        height: 28px;
+    }
 }
