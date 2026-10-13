@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://recettes-gigi.vercel.app/sitemap.xml
