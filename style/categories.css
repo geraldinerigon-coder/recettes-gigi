@@ -42,7 +42,8 @@
 /* CARTES */
 .categorie-card {
     display: flex;
-    flex-direction: row;          /* Icône + texte côte à côte */
+    flex-direction: row;
+    /* Icône + texte côte à côte */
     align-items: center;
     gap: 14px;
 
@@ -58,7 +59,7 @@
     font-weight: 600;
 
     transition: all 0.25s ease;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.06);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
 }
 
 /* ICÔNES SVG */
@@ -66,6 +67,7 @@
 .categorie-card svg {
     width: 34px;
     height: 34px;
+    object-fit: contain;
     flex-shrink: 0;
     display: inline-block;
 }
@@ -82,7 +84,7 @@
     border-color: #8b5e34;
     color: #8b5e34;
     transform: translateY(-6px);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
 
 /* MOBILE */
