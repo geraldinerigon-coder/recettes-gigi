@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiramisu classique italien – Les Recettes Parfaites de Gigi</title>
-
-    style/style.css
-    style/recette.css
-    <links/favicon.png
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/recette.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
-<scriptce.jsscript>
-
+<script src="js/source.js"></script>
 <body>
 
     <!-- HEADER -->
     <header class="header-gigi">
         <div class="header-top">
             <div class="header-left">
-                images/logo.png
+                <img src="images/logo.png" alt="Logo Gigi" class="logo-gigi">
             </div>
 
             <div class="header-center">
@@ -34,7 +32,6 @@
     <nav class="menu-gigi">
         <ul>
             <li><a href="index.html">Accueil</a></li>
-            <li><a href="dernieres.html">Dernières recettes</a></li>
             <li><a href="recettes.html">Toutes les recettes</a></li>
             <li><a href="categories.html">Recettes par Catégories</a></li>
             <li><a href="apropos.html">À propos</a></li>
@@ -48,37 +45,80 @@
 
         <!-- Infos clés -->
         <div class="infos-cle">
-            <span>⏱️ 30 min de préparation</span>
-            <span>⏳ 4 h minimum de repos</span>
+            <span>⏱️ 30 min + 4 h de repos</span>
             <span>🔥 Facile</span>
             <span>👥 8 personnes</span>
         </div>
 
-        <!-- Galerie de photos -->
+        <!-- Galerie de photos (Modifier les sources des images si nécessaire) -->
         <div class="galerie-recette">
-            images/tiramisu1.jpg
-            <imges/tiramisu2.jpg
-            <img src="images/tiramisu3.jpg" alt
+            <img src="images/tiramisu1.jpg" alt="Tiramisu classique italien">
+            <img src="images/tiramisu2.jpg" alt="Tiramisu classique italien">
+            <img src="images/tiramisu3.jpg" alt="Tiramisu classique italien">
+        </div>
 
         <!-- Mise en page 2 colonnes -->
         <div class="recette-layout">
 
             <!-- Colonne ingrédients -->
             <aside class="ingredients-col">
-
                 <h3>Ingrédients</h3>
 
+                <h4>Pour 8 personnes</h4>
                 <ul>
-                    <li>500 g de mascarpone</li>
+                    <li>500 g de mascarpone bien frais</li>
                     <li>4 œufs</li>
                     <li>100 g de sucre en poudre</li>
-                    <li>300 g de biscuits Savoiardi</li>
-                    <li>300 g de café espresso bien corsé refroidi</li>
+                    <li>300 g de biscuits Savoiardi (boudoirs)</li>
+                    <li>300 ml de café espresso bien corsé</li>
                     <li>90 g de Marsala</li>
-                    <li>Cacao non sucré pour la finition</li>
+                    <li>Cacao en poudre non sucré</li>
                 </ul>
 
-                <h3>Matériel</h3>
-
+                <h4>Matériel</h4>
                 <ul>
-                    <li
+                    <li>Grand saladier</li>
+                    <li>Fouet électrique ou batteur</li>
+                    <li>Maryse</li>
+                    <li>Plat rectangulaire ou plat à gratin</li>
+                    <li>Tamis pour le cacao</li>
+                </ul>
+            </aside>
+
+            <!-- Colonne étapes -->
+            <section class="etapes-col">
+                <h3>Étapes</h3>
+                <ol>
+                    <li><strong>Préparez le café :</strong> Faites couler l'espresso puis laissez-le refroidir complètement dans une assiette creuse.</li>
+                    <li><strong>Séparez les œufs :</strong> Mettez les jaunes dans un saladier et les blancs dans un autre récipient.</li>
+                    <li><strong>Fouettez les jaunes et le sucre :</strong> Travaillez le mélange jusqu'à ce qu'il blanchisse et devienne mousseux.</li>
+                    <li><strong>Ajoutez le mascarpone :</strong> Incorporez-le progressivement jusqu'à obtenir une crème homogène.</li>
+                    <li><strong>Ajoutez le Marsala :</strong> Versez-le en plusieurs fois tout en mélangeant délicatement.</li>
+                    <li><strong>Montez les blancs en neige :</strong> Battez les blancs jusqu'à obtenir une texture ferme.</li>
+                    <li><strong>Préparez la crème :</strong> Incorporez délicatement les blancs en neige à la préparation au mascarpone à l'aide d'une maryse.</li>
+                    <li><strong>Trempez les biscuits :</strong> Imbibez rapidement les Savoiardi dans le café refroidi, environ une seconde par face.</li>
+                    <li><strong>Réalisez la première couche :</strong> Disposez les biscuits au fond du plat puis recouvrez avec la moitié de la crème.</li>
+                    <li><strong>Réalisez la seconde couche :</strong> Ajoutez une nouvelle couche de biscuits puis le reste de la crème.</li>
+                    <li><strong>Laissez reposer :</strong> Couvrez le plat et placez-le au réfrigérateur pendant au moins 4 heures, idéalement toute une nuit.</li>
+                    <li><strong>Terminez au cacao :</strong> Saupoudrez généreusement de cacao non sucré juste avant de servir.</li>
+                </ol>
+
+                <h3>Conseils de Gigi</h3>
+                <p>
+                    Utilisez un café bien corsé et laissez-le complètement refroidir avant d'imbiber les biscuits. Pour un tiramisu encore plus savoureux, préparez-le la veille et laissez-le reposer toute la nuit.
+                </p>
+
+            </section>
+
+        </div>
+        <div id="bloc-source" class="bloc-source"></div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Les Recettes Parfaites de Gigi — Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
