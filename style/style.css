@@ -206,10 +206,8 @@
 }
  
 .categorie-card {
-    /* Conserve la police de votre texte, mais utilise Noto pour les emojis */
-    font-family: 'Noto Color Emoji', system-ui, -apple-system, sans-serif;
-    
-    /* Vos autres styles existants (ex: display, padding, etc.) */
+    /* "Twemoji Country Flags" affiche le drapeau, system-ui garde le joli texte actuel */
+    font-family: "Twemoji Country Flags", system-ui, -apple-system, sans-serif;
 }
 
 
