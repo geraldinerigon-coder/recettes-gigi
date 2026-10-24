@@ -205,6 +205,12 @@
     padding: 0 40px;
 }
  
+.categorie-card {
+    /* Conserve la police de votre texte, mais utilise Noto pour les emojis */
+    font-family: 'Noto Color Emoji', system-ui, -apple-system, sans-serif;
+    
+    /* Vos autres styles existants (ex: display, padding, etc.) */
+}
 
 
 
