@@ -20,13 +20,20 @@
   {
     "id": "bouillon-volaille",
     "titre": "Bouillon de volaille maison",
-    "categorie": [
-      "BaseCulinaire"
-    ],
+    "categorie": ["BaseCulinaire"],
     "image": "images/bouillon-volaille1.jpg",
     "date": "2026-06-08",
     "url": "recettes/bouillon-volaille.html"
   },
+  {
+    "titre": "Cake Lenôtre",
+    "url": "cake-lenotre.html",
+    "image": "images/cake-lenotre1.jpg",
+    "categorie": ["Desserts"],
+    "date": "2026-07-29",
+    "source": "Faites votre Pâtisserie comme LENÔTRE éd Flammarion 1981"
+  },
+
   {
     "titre": "Cookies façon Laura Todd",
     "url": "cookies-laura-todd.html",
