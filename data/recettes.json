@@ -33,8 +33,10 @@
     "date": "2026-07-29",
     "source": "Faites votre Pâtisserie comme LENÔTRE éd Flammarion 1981"
   },
+   
+
   {
-    "titre": "Chantilly Nature",
+    "titre": "Chantilly",
     "url": "chantilly-nature.html",
     "image": "images/chantilly1.jpg",
     "date": "2026-06-29",
@@ -59,10 +61,7 @@
   {
     "id": "crumble-felder",
     "titre": "Crumble aux pommes (Christophe Felder)",
-    "categorie": [
-      "Desserts",
-      "Rapide"
-    ],
+    "categorie": ["Desserts","Rapide"],
     "image": "images/crumble1.jpg",
     "date": "2026-07-29",
     "url": "recettes/crumble-felder.html"
@@ -81,6 +80,8 @@
     "date": "2026-07-02",
     "source": "Faites votre pâtisserie comme Lenôtre – Flammarion"
   },
+
+  
   {
     "titre": "Houmous ultra crémeux",
     "url": "houmous.html",
@@ -145,6 +146,15 @@
     ],
     "image": "images/pain-riz-basmati1.jpg",
     "url": "pain-riz-basmati-sans-gluten.html"
+  },
+
+  {
+    "titre": "Pancakes américains de Martha Stewart",
+    "url": "pancakes-martha-stewart.html",
+    "image": "images/pancakes1.jpg",
+    "categorie": ["Petit-déjeuner", "Goûter", "Brunch"],
+    "date": "2026-07-21",
+    "source": "Martha Stewart"
   },
   {
     "id": "pate-a-crepe",
