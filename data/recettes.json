@@ -211,5 +211,13 @@
     "categorie": "Salades, Entrées",
     "date": "2026-08-20",
     "source": "C'est ma fournée"
+  },
+  {
+    "titre": "Tuiles aux amandes de Lenôtre",
+    "url": "tuiles-amandes.html",
+    "image": "images/tuiles-amandes1.jpg",
+    "categorie": ["Desserts", "Biscuits"],
+    "date": "2026-11-07",
+    "source": "Faites votre Pâtisserie comme LENÔTRE éd Flammarion 1975"
   }
 ]
