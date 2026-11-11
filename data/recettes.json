@@ -66,6 +66,14 @@
     "date": "2026-07-29",
     "url": "recettes/crumble-felder.html"
   },
+
+  {"titre": "Falafels maison",
+    "url": "falafels.html",
+    "image": "images/falafels1.jpg",
+    "categorie": ["Apéro","Entrée", "Végétarien", "Pois Chiches"],
+    "date": "2026-07-29",
+    "source": "C'est ma fournée"
+  },
   {
     "titre": "Focaccia de Peppe",
     "url": "focaccia-peppe.html",
